@@ -6,26 +6,26 @@
 --------------------Configuration: FilterText_StaticLib - Win32 Release--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\Users\quoct\AppData\Local\Temp\RSP5E3D.tmp" with contents
+Creating temporary file "C:\Users\PC\AppData\Local\Temp\RSPDE24.tmp" with contents
 [
 /nologo /MD /W3 /GX /Zi /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D "FILTERTEXT_STATICLIB" /FR"FilterText_StaticLib___Win32_Release/" /Fp"FilterText_StaticLib___Win32_Release/FilterText_StaticLib.pch" /YX /Fo"FilterText_StaticLib___Win32_Release/" /Fd"FilterText_StaticLib___Win32_Release/" /FD /c 
-"D:\BackUP\JXNEW\JX\Sources\FilterText\FilterText.cpp"
-"D:\BackUP\JXNEW\JX\Sources\FilterText\Regexp.cpp"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\FilterText\FilterText.cpp"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\FilterText\Regexp.cpp"
 ]
-Creating command line "cl.exe @C:\Users\quoct\AppData\Local\Temp\RSP5E3D.tmp" 
-Creating command line "link.exe -lib /nologo /out:"FilterText_StaticLib___Win32_Release\FilterText_StaticLib.lib"  .\FilterText_StaticLib___Win32_Release\FilterText.obj .\FilterText_StaticLib___Win32_Release\Regexp.obj "
+Creating command line "cl.exe @C:\Users\PC\AppData\Local\Temp\RSPDE24.tmp" 
+Creating command line "link.exe -lib /nologo /out:"FilterText_StaticLib___Win32_Release\FilterText_StaticLib.lib"  ".\FilterText_StaticLib___Win32_Release\FilterText.obj" ".\FilterText_StaticLib___Win32_Release\Regexp.obj" "
 <h3>Output Window</h3>
 Compiling...
 FilterText.cpp
 Regexp.cpp
 Creating library...
-Creating temporary file "C:\Users\quoct\AppData\Local\Temp\RSP6A25.bat" with contents
+Creating temporary file "C:\Users\PC\AppData\Local\Temp\RSPE0B6.bat" with contents
 [
 @echo off
 md ..\..\..\lib\release
 copy FilterText_StaticLib___Win32_Release\FilterText_StaticLib.lib ..\..\lib\release\FilterText_StaticLib.lib
 ]
-Creating command line "C:\Users\quoct\AppData\Local\Temp\RSP6A25.bat"
+Creating command line "C:\Users\PC\AppData\Local\Temp\RSPE0B6.bat"
 
         1 file(s) copied.
 

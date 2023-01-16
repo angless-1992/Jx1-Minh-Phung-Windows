@@ -6,42 +6,72 @@
 --------------------Configuration: S3RelayServer - Win32 Release--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\Users\Hoang10\AppData\Local\Temp\RSP4602.tmp" with contents
+Creating command line "rc.exe /l 0x804 /fo"Release/Sword3RelaySys.res" /d "NDEBUG" "E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\Sword3RelaySys.rc"" 
+Creating temporary file "C:\Users\PC\AppData\Local\Temp\RSP86F0.tmp" with contents
 [
 /nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/S3RelayServer.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
-"F:\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\S3PDBSocketPool.cpp"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\GlobalFun.cpp"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\KThread.cpp"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\LogFile.cpp"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\main.cpp"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\S3P_MSSQLServer_Result.cpp"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\S3PAccount.cpp"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\S3PDB_MSSQLServer_Connection.cpp"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\S3PDBConnectionPool.cpp"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\S3PDBConVBC.cpp"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\S3PDBSocketPool.cpp"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\S3PResultVBC.cpp"
 ]
-Creating command line "cl.exe @C:\Users\Hoang10\AppData\Local\Temp\RSP4602.tmp" 
-Creating temporary file "C:\Users\Hoang10\AppData\Local\Temp\RSP4603.tmp" with contents
+Creating command line "cl.exe @C:\Users\PC\AppData\Local\Temp\RSP86F0.tmp" 
+Creating temporary file "C:\Users\PC\AppData\Local\Temp\RSP86F1.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/S3RelayServer.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\PC\AppData\Local\Temp\RSP86F1.tmp" 
+Creating temporary file "C:\Users\PC\AppData\Local\Temp\RSP86F2.tmp" with contents
 [
 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Ws2_32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/S3RelayServer.pdb" /map:"Release/S3RelayServer.map" /debug /machine:I386 /out:"Release/S3RelayServer.exe" 
-.\Release\GlobalFun.obj
-.\Release\KThread.obj
-.\Release\LogFile.obj
-.\Release\main.obj
-.\Release\S3P_MSSQLServer_Result.obj
-.\Release\S3PAccount.obj
-.\Release\S3PDB_MSSQLServer_Connection.obj
-.\Release\S3PDBConnectionPool.obj
-.\Release\S3PDBConVBC.obj
-.\Release\S3PDBSocketPool.obj
-.\Release\S3PResultVBC.obj
-.\Release\StdAfx.obj
-.\Release\Sword3RelaySys.res
+".\Release\GlobalFun.obj"
+".\Release\KThread.obj"
+".\Release\LogFile.obj"
+".\Release\main.obj"
+".\Release\S3P_MSSQLServer_Result.obj"
+".\Release\S3PAccount.obj"
+".\Release\S3PDB_MSSQLServer_Connection.obj"
+".\Release\S3PDBConnectionPool.obj"
+".\Release\S3PDBConVBC.obj"
+".\Release\S3PDBSocketPool.obj"
+".\Release\S3PResultVBC.obj"
+".\Release\StdAfx.obj"
+".\Release\Sword3RelaySys.res"
 ]
-Creating command line "link.exe @C:\Users\Hoang10\AppData\Local\Temp\RSP4603.tmp"
+Creating command line "link.exe @C:\Users\PC\AppData\Local\Temp\RSP86F2.tmp"
 <h3>Output Window</h3>
+Compiling resources...
 Compiling...
+StdAfx.cpp
+Compiling...
+GlobalFun.cpp
+KThread.cpp
+LogFile.cpp
+main.cpp
+S3P_MSSQLServer_Result.cpp
+S3PAccount.cpp
+S3PDB_MSSQLServer_Connection.cpp
+S3PDBConnectionPool.cpp
+S3PDBConVBC.cpp
 S3PDBSocketPool.cpp
+S3PResultVBC.cpp
 Linking...
-Creating temporary file "C:\Users\Hoang10\AppData\Local\Temp\RSP4C0F.bat" with contents
+Creating temporary file "C:\Users\PC\AppData\Local\Temp\RSP8E26.bat" with contents
 [
 @echo off
 md ..\..\..\..\bin\Server\release\
 copy release\S3RelayServer.exe ..\..\..\..\bin\Server\S3RelayServer.exe
 copy release\S3RelayServer.exe ..\..\..\..\bin\Server\release\S3RelayServer.exe
 ]
-Creating command line "C:\Users\Hoang10\AppData\Local\Temp\RSP4C0F.bat"
+Creating command line "C:\Users\PC\AppData\Local\Temp\RSP8E26.bat"
 
 A subdirectory or file ..\..\..\..\bin\Server\release\ already exists.
         1 file(s) copied.

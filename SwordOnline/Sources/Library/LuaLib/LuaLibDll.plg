@@ -6,68 +6,68 @@
 --------------------Configuration: LuaLibDll - Win32 Release--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\Users\SkyGold\AppData\Local\Temp\RSP26E9.tmp" with contents
+Creating temporary file "C:\Users\PC\AppData\Local\Temp\RSP2873.tmp" with contents
 [
 /nologo /MD /W3 /GX /O2 /I ".\LuaLibDll\src" /I ".\src" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "LUALIBDLL_EXPORTS" /Fp"Release/LuaLibDll.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
-"D:\DevJx\SourceUpdate2012\SwordOnline\Sources\Library\LuaLib\src\lapi.c"
-"D:\DevJx\SourceUpdate2012\SwordOnline\Sources\Library\LuaLib\src\lcode.c"
-"D:\DevJx\SourceUpdate2012\SwordOnline\Sources\Library\LuaLib\src\ldebug.c"
-"D:\DevJx\SourceUpdate2012\SwordOnline\Sources\Library\LuaLib\src\ldo.c"
-"D:\DevJx\SourceUpdate2012\SwordOnline\Sources\Library\LuaLib\src\lfunc.c"
-"D:\DevJx\SourceUpdate2012\SwordOnline\Sources\Library\LuaLib\src\lgc.c"
-"D:\DevJx\SourceUpdate2012\SwordOnline\Sources\Library\LuaLib\src\llex.c"
-"D:\DevJx\SourceUpdate2012\SwordOnline\Sources\Library\LuaLib\src\lmem.c"
-"D:\DevJx\SourceUpdate2012\SwordOnline\Sources\Library\LuaLib\src\lobject.c"
-"D:\DevJx\SourceUpdate2012\SwordOnline\Sources\Library\LuaLib\src\lparser.c"
-"D:\DevJx\SourceUpdate2012\SwordOnline\Sources\Library\LuaLib\src\lstate.c"
-"D:\DevJx\SourceUpdate2012\SwordOnline\Sources\Library\LuaLib\src\lstring.c"
-"D:\DevJx\SourceUpdate2012\SwordOnline\Sources\Library\LuaLib\src\ltable.c"
-"D:\DevJx\SourceUpdate2012\SwordOnline\Sources\Library\LuaLib\src\ltests.c"
-"D:\DevJx\SourceUpdate2012\SwordOnline\Sources\Library\LuaLib\src\ltm.c"
-"D:\DevJx\SourceUpdate2012\SwordOnline\Sources\Library\LuaLib\src\lua.c"
-"D:\DevJx\SourceUpdate2012\SwordOnline\Sources\Library\LuaLib\src\LuaExtend.c"
-"D:\DevJx\SourceUpdate2012\SwordOnline\Sources\Library\LuaLib\src\lundump.c"
-"D:\DevJx\SourceUpdate2012\SwordOnline\Sources\Library\LuaLib\src\lvm.c"
-"D:\DevJx\SourceUpdate2012\SwordOnline\Sources\Library\LuaLib\src\lzio.c"
-"D:\DevJx\SourceUpdate2012\SwordOnline\Sources\Library\LuaLib\src\baselib\lauxlib.c"
-"D:\DevJx\SourceUpdate2012\SwordOnline\Sources\Library\LuaLib\src\baselib\lbaselib.c"
-"D:\DevJx\SourceUpdate2012\SwordOnline\Sources\Library\LuaLib\src\baselib\ldblib.c"
-"D:\DevJx\SourceUpdate2012\SwordOnline\Sources\Library\LuaLib\src\baselib\liolib.c"
-"D:\DevJx\SourceUpdate2012\SwordOnline\Sources\Library\LuaLib\src\baselib\lmathlib.c"
-"D:\DevJx\SourceUpdate2012\SwordOnline\Sources\Library\LuaLib\src\baselib\lstrlib.c"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Library\LuaLib\src\lapi.c"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Library\LuaLib\src\lcode.c"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Library\LuaLib\src\ldebug.c"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Library\LuaLib\src\ldo.c"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Library\LuaLib\src\lfunc.c"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Library\LuaLib\src\lgc.c"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Library\LuaLib\src\llex.c"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Library\LuaLib\src\lmem.c"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Library\LuaLib\src\lobject.c"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Library\LuaLib\src\lparser.c"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Library\LuaLib\src\lstate.c"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Library\LuaLib\src\lstring.c"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Library\LuaLib\src\ltable.c"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Library\LuaLib\src\ltests.c"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Library\LuaLib\src\ltm.c"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Library\LuaLib\src\lua.c"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Library\LuaLib\src\LuaExtend.c"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Library\LuaLib\src\lundump.c"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Library\LuaLib\src\lvm.c"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Library\LuaLib\src\lzio.c"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Library\LuaLib\src\baselib\lauxlib.c"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Library\LuaLib\src\baselib\lbaselib.c"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Library\LuaLib\src\baselib\ldblib.c"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Library\LuaLib\src\baselib\liolib.c"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Library\LuaLib\src\baselib\lmathlib.c"
+"E:\00.tinh-kiem-github\src-tinh-kiem\SwordOnline\Sources\Library\LuaLib\src\baselib\lstrlib.c"
 ]
-Creating command line "cl.exe @C:\Users\SkyGold\AppData\Local\Temp\RSP26E9.tmp" 
-Creating temporary file "C:\Users\SkyGold\AppData\Local\Temp\RSP26EA.tmp" with contents
+Creating command line "cl.exe @C:\Users\PC\AppData\Local\Temp\RSP2873.tmp" 
+Creating temporary file "C:\Users\PC\AppData\Local\Temp\RSP2874.tmp" with contents
 [
 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/LuaLibDll.pdb" /machine:I386 /out:"Release/LuaLibDll.dll" /implib:"Release/LuaLibDll.lib" 
-.\Release\lapi.obj
-.\Release\lcode.obj
-.\Release\ldebug.obj
-.\Release\ldo.obj
-.\Release\lfunc.obj
-.\Release\lgc.obj
-.\Release\llex.obj
-.\Release\lmem.obj
-.\Release\lobject.obj
-.\Release\lparser.obj
-.\Release\lstate.obj
-.\Release\lstring.obj
-.\Release\ltable.obj
-.\Release\ltests.obj
-.\Release\ltm.obj
-.\Release\lua.obj
-.\Release\LuaExtend.obj
-.\Release\lundump.obj
-.\Release\lvm.obj
-.\Release\lzio.obj
-.\Release\lauxlib.obj
-.\Release\lbaselib.obj
-.\Release\ldblib.obj
-.\Release\liolib.obj
-.\Release\lmathlib.obj
-.\Release\lstrlib.obj
+".\Release\lapi.obj"
+".\Release\lcode.obj"
+".\Release\ldebug.obj"
+".\Release\ldo.obj"
+".\Release\lfunc.obj"
+".\Release\lgc.obj"
+".\Release\llex.obj"
+".\Release\lmem.obj"
+".\Release\lobject.obj"
+".\Release\lparser.obj"
+".\Release\lstate.obj"
+".\Release\lstring.obj"
+".\Release\ltable.obj"
+".\Release\ltests.obj"
+".\Release\ltm.obj"
+".\Release\lua.obj"
+".\Release\LuaExtend.obj"
+".\Release\lundump.obj"
+".\Release\lvm.obj"
+".\Release\lzio.obj"
+".\Release\lauxlib.obj"
+".\Release\lbaselib.obj"
+".\Release\ldblib.obj"
+".\Release\liolib.obj"
+".\Release\lmathlib.obj"
+".\Release\lstrlib.obj"
 ]
-Creating command line "link.exe @C:\Users\SkyGold\AppData\Local\Temp\RSP26EA.tmp"
+Creating command line "link.exe @C:\Users\PC\AppData\Local\Temp\RSP2874.tmp"
 <h3>Output Window</h3>
 Compiling...
 lapi.c
@@ -124,13 +124,13 @@ lstrlib.c
 Create LUA dllexport
 Linking...
    Creating library Release/LuaLibDll.lib and object Release/LuaLibDll.exp
-Creating temporary file "C:\Users\SkyGold\AppData\Local\Temp\RSP32CD.bat" with contents
+Creating temporary file "C:\Users\PC\AppData\Local\Temp\RSP2B05.bat" with contents
 [
 @echo off
 copy Release\lualibdll.lib ..\..\..\Lib\lualibdll.lib
 copy Release\lualibdll.dll ..\..\..\Lib\lualibdll.dll
 ]
-Creating command line "C:\Users\SkyGold\AppData\Local\Temp\RSP32CD.bat"
+Creating command line "C:\Users\PC\AppData\Local\Temp\RSP2B05.bat"
 
         1 file(s) copied.
         1 file(s) copied.
