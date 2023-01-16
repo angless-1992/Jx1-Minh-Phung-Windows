@@ -1085,7 +1085,7 @@ int CoreServerShell::OnLunch(LPVOID pServer)
 {
 	g_SetServer(pServer);
 
-	KLuaScript g_pStartScript = (KLuaScript*) g_GetScript(SERVERSTARTUP_SCRIPT);
+	KLuaScript *g_pStartScript = (KLuaScript*) g_GetScript(SERVERSTARTUP_SCRIPT);
 	if (g_pStartScript)
 	{
 		g_pStartScript->CallFunction(NORMAL_FUNCTION_NAME,0,"");

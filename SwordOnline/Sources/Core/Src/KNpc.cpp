@@ -4002,13 +4002,16 @@ BOOL	KNpc::SetActiveSkill(int nSkillIdx)
 
 void KNpc::SetAuraSkill(int nSkillID)
 {
+	int nCurLevel = 0;
 	if (nSkillID <= 0 || nSkillID >= MAX_SKILL) 
     {
         nSkillID = 0;
     }
 	else
 	{
-		if (m_SkillList.GetLevel(nSkillID) <= 0) 
+		nCurLevel = m_SkillList.GetCurrentLevel(nSkillID);
+		//if (m_SkillList.GetLevel(nSkillID) <= 0) 
+		if (nCurLevel <= 0) 
         {
             nSkillID = 0;
         }
