@@ -99,3 +99,13 @@ bin/server/Goddess.exe
 bin/server/FilterText.dll
 bin/server/engine.dll
 bin/server/Bishop.exe
+bin/client/ExpandPackage.dll
+SwordOnline/Sources/Engine/Engine.plg
+SwordOnline/Sources/ExpandPackage2.0/ExpandPackage.plg
+SwordOnline/Sources/FilterText/FilterText.plg
+SwordOnline/Sources/FilterText/FilterText_StaticLib.plg
+SwordOnline/Sources/JXAll.ncb
+SwordOnline/Sources/JXAll.opt
+SwordOnline/Sources/MultiServer/Bishop/Bishop.plg
+SwordOnline/Sources/MultiServer/Common/Common.plg
+SwordOnline/Sources/JXAll.ncb
