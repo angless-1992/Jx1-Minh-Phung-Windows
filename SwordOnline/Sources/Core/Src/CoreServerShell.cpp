@@ -1729,7 +1729,7 @@ void CoreServerShell::SetExtPoint(int nIndex, int nExtPoint)
  	{
  		return;
  	}
-	Player[nIndex].SetExtPoint(nExtPoint, 0);
+	//Player[nIndex].SetExtPoint(nExtPoint, 0);
 }
 
 void CoreServerShell::GetLastName(int nIndex, char* szName)
