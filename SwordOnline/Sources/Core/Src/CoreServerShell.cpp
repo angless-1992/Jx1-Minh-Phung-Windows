@@ -1729,6 +1729,7 @@ void CoreServerShell::SetExtPoint(int nIndex, int nExtPoint)
  	{
  		return;
  	}
+	//ThienTV:19/01/2023
 	//Player[nIndex].SetExtPoint(nExtPoint, 0);
 }
 
