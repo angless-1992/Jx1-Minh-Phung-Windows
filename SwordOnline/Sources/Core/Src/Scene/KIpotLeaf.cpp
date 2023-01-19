@@ -61,6 +61,7 @@ void KIpotLeaf_EnumerateObjects(KIpotLeaf* pLeaf, void* p, ObjectsCallbackFn Cal
 	};
 }
 
+//ThienTV:19/01/2023
 //extern int		g_bShowObstacle;
 
 void KIpotLeaf_PaintObjectLayer(KIpotLeaf* pLeaf, RECT* pRepresentArea)
@@ -82,6 +83,7 @@ void KIpotLeaf_PaintObjectLayer(KIpotLeaf* pLeaf, RECT* pRepresentArea)
 				CoreDrawGameObj(pObj->uGenre, pObj->nId, pObj->oPosition.x,
 					pObj->oPosition.y, 0, 0, IPOT_RL_OBJECT);
 			}
+			//ThienTV:19/01/2023
 			//#ifdef _DEBUG
 			//if (g_bShowObstacle)
 			//{
