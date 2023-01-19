@@ -364,8 +364,11 @@ label_retry:
 	m_btRepositoryNum					= pRoleData->BaseInfo.iexboxrole;
 	m_cTong.m_dwLeaveTime			= pRoleData->BaseInfo.ileavetongtime; 
 	m_ImagePlayer   = pRoleData->BaseInfo.ihelmres;
-	//m_nExtPoint			= pRoleData->BaseInfo.iextpoint;
-	SetExtPoint(m_nExtPoint, 0);
+	//ThienTV:19/01/2023
+	m_nExtPoint			= pRoleData->BaseInfo.iextpoint;
+	//ThienTV:19/01/2023
+	//SetExtPoint(m_nExtPoint, 0);
+
 	//现金和贮物箱中的钱
 	int nCashMoney = 0;
 	int nSaveMoney = 0;
