@@ -367,7 +367,7 @@ label_retry:
 	//ThienTV:19/01/2023
 	m_nExtPoint			= pRoleData->BaseInfo.iextpoint;
 	//ThienTV:19/01/2023
-	//SetExtPoint(m_nExtPoint, 0);
+	SetExtPoint(m_nExtPoint, 0);
 
 	//现金和贮物箱中的钱
 	int nCashMoney = 0;
